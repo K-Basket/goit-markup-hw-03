@@ -21,16 +21,38 @@ button {
   cursor: pointer;
 }
 
-.list-none {
+.list {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
-.link-none {
+.link {
   text-decoration: none;
 }
 
+.text {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+/* container */
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  outline: 1px solid tomato;
+}
 
 /* header */
+
 
 .logo-nav,
 .logo-footer {
@@ -82,9 +104,8 @@ button {
 
 /* Main page */
 
-/* section */
 
-.section-title {
+.title {
   color: var(--text-secondary-color);
   font-weight: 700;
   font-size: 36px;
@@ -97,14 +118,17 @@ button {
 
 .hero {
   background-color: var(--bg-primary-color);
+  text-align: center;
+  /* vertical-align: middle; */
 }
 
-.hero-title {
+.hero .title {
+  margin-bottom: 30px;
+
   color: #FFFFFF;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.55;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -129,16 +153,18 @@ button {
 
 /* features */
 
-.feature-list .title {
+
+.feature .title {
   color: var(--text-secondary-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  text-align: left;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
-.feature-list .text {
+.feature .text {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -146,7 +172,11 @@ button {
 
 /* staffs */
 
-.staff-list .name {
+.staff {
+  background-color: var(--bg-tertiary-color);
+}
+
+.staff .name {
   color: var(--text-secondary-color);
   font-weight: 500;
   font-size: 16px;
@@ -155,7 +185,7 @@ button {
   letter-spacing: 0.03em;
 }
 
-.staff-list .text {
+.staff .text {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
