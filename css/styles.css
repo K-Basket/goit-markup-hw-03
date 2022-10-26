@@ -163,6 +163,7 @@ h3,
 }
 
 .hero .title {
+  margin-bottom: 30px;
   color: var(--white-color);
   font-weight: 900;
   font-size: 44px;
