@@ -434,7 +434,7 @@ h3,
   color: var(--white-color);
 }
 
-.contact>li:not(:last-child) {
+.footer .item:not(:last-child) {
   margin-bottom: 9px;
 }
 
